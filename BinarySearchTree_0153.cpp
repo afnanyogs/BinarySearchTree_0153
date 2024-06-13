@@ -127,6 +127,21 @@ int main()
 		cout << "5.exit" << endl;
 		cout << "\nEnter your choice (1-5):";
 
+		char ch;
+		cin >> ch;
+		cout << endl;
+
+		switch (ch)
+		{
+		case'1':
+		{
+			cout << "Enter a word:";
+			string word;
+			cin >> word;
+			x.insert(word);
+			break;
+		}
 		
+		}
 	}
 }
