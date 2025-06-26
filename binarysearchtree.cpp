@@ -174,4 +174,10 @@ int main()
             x.preorder(x.ROOT);
             break;
         }
-       
+        case '4':
+        {
+
+            x.postorder(x.ROOT);
+            break;
+        }
+        
