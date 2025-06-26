@@ -92,4 +92,22 @@ public:
     }
 
     bool isEmpty()
-    
+    {
+        // check if the tree is empty
+        return ROOT == nullptr;
+    }
+    void inorder(Node *ptr)
+    {
+        if (isEmpty())
+        {
+            cout << "Tree is Empty" << endl;
+            return;
+        }
+        if (ptr == nullptr)
+            return;
+        inorder(ptr->leftchild);
+        cout << ptr->info << " "; // parent
+        inorder(ptr->rightchild);
+    }
+
+   
