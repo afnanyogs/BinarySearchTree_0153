@@ -139,3 +139,7 @@ public:
     }
 };
 
+int main()
+{
+    BinaryTree x;
+    
